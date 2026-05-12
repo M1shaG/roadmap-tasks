@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <title>Login - MovieRental</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="container--middle">
+        <div class="header__text">
+            <h1>Movie rental</h1>
+        </div>
+        <div class="auth__form">
+            <form action="#">
+                <div class="auth__form--container">
+                    <label for="uname">Email</label>
+                    <input type="email" placeholder="email" name="uname" required />
+                </div>
+
+                <div class="auth__form--container">
+                    <label for="psw">Password</label>
+                    <input type="password" placeholder="password" name="psw" required />
+                </div>
+
+                <div class="auth__form--container auth__form--button">
+                    <button type="submit">Sign in</button>
+                </div>
+            </form>
+        </div>
+
+        <div class="auth__form auth__form--registration">
+            <form action="#">
+                <div class="auth__form--container">
+                    <label for="uname">Name</label>
+                    <input type="text" placeholder="name" name="uname" required />
+                </div>
+
+                <div class="auth__form--container">
+                    <label for="surname">Surname</label>
+                    <input type="text" placeholder="surname" name="surname" required />
+                </div>
+
+                <div class="auth__form--container">
+                    <label for="email">Email</label>
+                    <input type="email" placeholder="email" name="email" required />
+                </div>
+
+                <div class="auth__form--container">
+                    <label for="again_email">Email again</label>
+                    <input type="email" placeholder="email" name="again_email" required />
+                </div>
+
+                <div class="auth__form--container">
+                    <label for="psw">Password</label>
+                    <input type="password" placeholder="password" name="psw" required />
+                </div>
+
+                <div class="auth__form--container">
+                    <label for="again_psw">Password again</label>
+                    <input type="password" placeholder="password" name="again_psw" required />
+                </div>
+
+                <div class="auth__form--container auth__form--button">
+                    <button type="submit">Register</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>

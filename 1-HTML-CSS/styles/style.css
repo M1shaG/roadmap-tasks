@@ -1,0 +1,97 @@
+/* || General styles */
+
+* {
+    box-sizing: border-box;
+    font-family: Inter, Tahoma, sans-serif; /*Inter - main, Tahoma - fallback*/
+}
+
+body {
+    background-color: #D9D9D9;
+    margin: 0;
+}
+
+.container--middle {
+    max-width: 960px;
+    width:100%;
+    margin: 0 auto;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* || Header */
+
+.header__nav {
+    max-width: 480px;
+    width: 100%;
+    display: flex;
+    justify-content: left;
+}
+
+.header__text h1 {
+    color: #fff;
+    font-size: 48px;
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: 40px;
+}
+
+.header__nav nav {
+    margin: 0px 10px;
+}
+
+/* || Authentication */
+
+.auth__form {
+    background-color: #fff;
+    padding: 20px 40px;
+    border-radius: 35px;
+}
+
+.auth__form--container:not(:last-child)  {
+    margin-bottom: 20px;
+}
+
+.auth__form--container label {
+    display: block;
+    margin: 5px 0px;
+}
+
+.auth__form--container input {
+    max-width: 250px;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    color: gray;
+    background-color: #D9D9D9;
+    border: none;
+}
+
+.auth__form--container input:focus {
+    outline: 2px solid #363636;
+    background-color: #fff;
+}
+
+.auth__form--button {
+    text-align: center;
+}
+
+.auth__form--container button {
+    background-color: #363636;
+    color: #fff;
+    border-radius: 25px;
+    border: none;
+    padding: 10px 40px;
+}
+
+.auth__form--button button:hover {
+    background-color: #555;
+    cursor: pointer;
+}
+
+.auth__form--registration {
+    margin-top: 30px;
+}
+
