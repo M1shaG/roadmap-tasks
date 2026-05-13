@@ -1,58 +1,86 @@
 <!doctype html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="styles/style.css" />
+        <title>Home - MovieRental</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+            rel="stylesheet"
+        />
+    </head>
 
-<head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles/style.css" />
-    <title>Home - MovieRental</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
-        rel="stylesheet">
-</head>
-
-<body>
-    <div class="container--middle">
-        <header>
-            <div class="header__text">
-                <h1>Movie rental</h1>
-            </div>
-
-            <div class="header__nav">
-                <nav><a href="#">Home</a></nav>
-                <nav><a href="#">Your movies</a></nav>
-                <nav><a href="#">Profile</a></nav>
-            </div>
-        </header>
-
-        <section class="home__section">
-            <div>
-                <h1 class="section__text">Available Movies</h1>
-            </div>
-
-            <div class="home__table">
-                <div class="home__table--row home__table--header">
-                    <div>Name</div>
-                    <div>Genre</div>
-                    <div>Price for 12h</div>
-                    <div>Is in stock</div>
-                    <div> </div>
+    <body>
+        <div class="container--middle">
+            <header>
+                <div class="header__text">
+                    <h1>Movie rental</h1>
                 </div>
 
-                <div class="home__table--row">
-                    <div>Batman</div>
-                    <div>Action</div>
-                    <div>4.55$</div>
-                    <div><img src="img/mark.png" alt="Yes"></div>
-                    <button class="home__table--button">Rent</button>
+                <div class="header__nav">
+                    <nav><a href="home.html">Home</a></nav>
+                    <nav><a href="yourMovies.html">Your movies</a></nav>
+                    <nav><a href="profile.html">Profile</a></nav>
                 </div>
-            </div>
+            </header>
 
-        </section>
-    </div>
-</body>
+            <section class="home__section">
+                <div>
+                    <h1 class="section__text">Available Movies</h1>
+                </div>
 
+                <div class="home__table">
+                    <div class="home__table--row home__table--header">
+                        <div>Name</div>
+                        <div>Genre</div>
+                        <div>Price for 12h</div>
+                        <div>Is in stock</div>
+                        <div></div>
+                    </div>
 
+                    <div class="home__table--row">
+                        <div>Batman</div>
+                        <div>Action</div>
+                        <div>4.55$</div>
+                        <div><img src="img/mark.png" alt="Yes" /></div>
+                        <button class="home__table--button">Rent</button>
+                    </div>
+
+                    <div class="home__table--row">
+                        <div>Batman</div>
+                        <div>Action</div>
+                        <div>4.55$</div>
+                        <div><img src="img/mark.png" alt="Yes" /></div>
+                        <button class="home__table--button">Rent</button>
+                    </div>
+
+                    <div class="home__table--row">
+                        <div>Batman</div>
+                        <div>Action</div>
+                        <div>4.55$</div>
+                        <div><img src="img/mark.png" alt="Yes" /></div>
+                        <button class="home__table--button">Rent</button>
+                    </div>
+
+                    <div class="home__table--row">
+                        <div>Batman</div>
+                        <div>Action</div>
+                        <div>4.55$</div>
+                        <div><img src="img/cross.png" alt="Yes" /></div>
+                        <button class="home__table--button">Rent</button>
+                    </div>
+                </div>
+            </section>
+
+            <footer>
+                <div class="footer--container">
+                    <div>Made by: Mykhailo Honcharov</div>
+                    <div>2026</div>
+                </div>
+            </footer>
+        </div>
+    </body>
 </html>
